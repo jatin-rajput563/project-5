@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    justify-content: center;
+    min-height: 100vh;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2F1893;
+}
+.container{
+    max-width: 1140px;
+     padding-left: 12px;
+     padding-right: 12px;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.col-3{
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.head{
+font-size: 42px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.4000000059604645px;
+text-align: center;
+color: white;
+font-family: "Dm sans", sans-serif;
+}
+.card{
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+    min-height: 160px;
+    background-color: #2F1893;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid #4E3BA3;
+}
+.para{
+    margin-top: 20px;
+font-family: "Dm sana",sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+color: white;
+margin-bottom: 52px;
+}
